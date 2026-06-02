@@ -1,0 +1,66 @@
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    background-color:#f4f4f4;
+}
+
+nav{
+    background-color:#eaafd2;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    padding:15px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:20px;
+}
+
+header{
+    text-align:center;
+    background-color:#9cbfe4;
+    color:white;
+    padding:45px;
+}
+
+button{
+    padding:10px 18px;
+    border:none;
+    border-radius:5px;
+    background:white;
+    color:#dfb2d0;
+}
+
+.about{
+    text-align:center;
+    padding:25px;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    width:220px;
+    padding:18px;
+    border-radius:10px;
+    box-shadow:2px 2px 8px lightgray;
+}
+
+.contact{
+    text-align:center;
+    padding:25px;
+}
+
+footer{
+    background-color:#575657;
+    color:white;
+    text-align:center;
+    padding:12px;
+}
